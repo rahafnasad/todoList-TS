@@ -1,0 +1,27 @@
+.addTask{
+    
+    margin: 25px 0;
+}
+.addTask form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.addTask form input {
+    width: 40%;
+    padding:8px 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid #2b2d42;
+    font-weight: 500;
+}
+.addTask form input::placeholder{
+    color: #333;
+}
+.addTask form button{
+    background-color: #2b2d42;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: #ffffff;
+  color: #191919;
+  background-image: linear-gradient(
+      rgba(227, 227, 227, 0.4) 1.5px,
+      transparent 1.5px
+    ),
+    linear-gradient(to right, rgba(227, 227, 227, 0.4) 1.5px, transparent 1.5px);
+  background-size: 10px 10px;
+  margin: 0;
+}
+.Completed{
+  background-color: rgba(0, 145, 65, 0.1);
+  border: 1px solid rgba(0, 145, 65, 0.8);
+}
+.NotCompleted{
+  background-color: rgba(145, 0, 0, 0.1);
+  border: 1px solid rgba(145, 0, 0, 0.8);
+}
+.Completed:hover{
+  background-color: rgba(0, 145, 65, 0.2);
+
+}
+.NotCompleted:hover{
+  background-color: rgba(145, 0, 0, 0.2);
+
+}
+.active {
+  background-color: #2b2d42 !important;
+    color: white;}
