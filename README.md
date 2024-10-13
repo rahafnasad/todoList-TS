@@ -28,8 +28,8 @@ To download the project, you can follow these steps:
 
 1. **Clone the Repository**: Use the following command in your terminal to clone the repository to your machine:
 
-   ```bash
-   https://github.com/rahafnasad/todoList-TS.git
+ ```bash
+ https://github.com/rahafnasad/todoList-TS.git
    ```
  2 . Navigate to the Project Folder: After cloning, navigate to the project folder using the command:
  ```bash
