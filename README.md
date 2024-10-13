@@ -46,6 +46,13 @@ To download the project, you can follow these steps:
    ```bash
    bpm run dev
    ```
-   
+
+   ## 📸 Screenshots
+
+Below are some screenshots of the Typed ToDo App to give you a visual overview of its features and user interface. These images showcase the main functionalities, including adding new tasks, marking tasks as completed, and deleting tasks. Check them out! 👀
+![6](https://github.com/user-attachments/assets/9fc58b64-2804-4549-9ddd-161d6eb869e7)
+![7](https://github.com/user-attachments/assets/8d6d7638-4ae2-4c90-b3ef-2c21e6498b90)
+
+
    
 
