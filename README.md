@@ -31,9 +31,9 @@ To download the project, you can follow these steps:
    ```bash
    https://github.com/rahafnasad/todoList-TS.git
    ```
-   2. Navigate to the Project Folder: After cloning, navigate to the project folder using the command:
-```bash
-cd todoListTS
+ 2 . Navigate to the Project Folder: After cloning, navigate to the project folder using the command:
+ ```bash
+ cd todoListTS
 ```
  
    3. Install Dependencies: Install the necessary dependencies for the project using npm :
