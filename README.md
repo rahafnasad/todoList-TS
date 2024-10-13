@@ -22,7 +22,30 @@ Use React’s `useState` hook to manage the state of your To-Do items. This will
 
 Utilize the `map` method to render each `TodoItem`. This will ensure that every item in your list is displayed correctly. 
 
-```tsx
-{todoItems.map((item) => (
-  <TodoItem key={item.id} item={item} />
-))}
+## 📥 How to Download the Project
+
+To download the project, you can follow these steps:
+
+1. **Clone the Repository**: Use the following command in your terminal to clone the repository to your machine:
+
+   ```bash
+   https://github.com/rahafnasad/todoList-TS.git
+   ```
+   2. Navigate to the Project Folder: After cloning, navigate to the project folder using the command:
+```bash
+cd todoListTS
+```
+ 
+   3. Install Dependencies: Install the necessary dependencies for the project using npm :
+
+   ```bash
+   npm install
+   ```
+   4. Run the Project: You can run the project locally with the command:
+
+   ```bash
+   bpm run dev
+   ```
+   
+   
+
