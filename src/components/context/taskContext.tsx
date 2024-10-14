@@ -14,7 +14,7 @@ export function TaskContextProvider({ children }: { children: ReactNode }) {
     <TaskContext.Provider
       value={{
         status,
-        setStatus
+        setStatus,
       }}
     >
       {children}

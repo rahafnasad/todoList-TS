@@ -1,15 +1,9 @@
 import { useContext, useEffect, useState } from "react";
 import ShowData from "./showData/ShowData";
 import { TaskContext } from "./context/taskContext";
-type Todo = {
-  id: number;
-  todo: string;
-  completed: boolean;
-  userId: number;
-};
-
+import {Todo} from "../types/index"
 export default function GetData() {
-  const [data, setData] = useState<Todo[]>([]); 
+  const [data, setData] = useState<Todo[]>([]);
 
   const context = useContext(TaskContext);
 
@@ -17,7 +11,7 @@ export default function GetData() {
     throw new Error("GetData must be used within a TaskContextProvider");
   }
 
-  const { status } = context; 
+  const { status } = context;
 
   const getData = async () => {
     if (!localStorage.getItem("toDo")) {
@@ -30,14 +24,16 @@ export default function GetData() {
         console.log(error);
       }
     } else {
-      const storedData: Todo[] = JSON.parse(localStorage.getItem("toDo") || "[]");
+      const storedData: Todo[] = JSON.parse(
+        localStorage.getItem("toDo") || "[]"
+      );
       setData(storedData);
     }
   };
 
   useEffect(() => {
     getData();
-  }, [status]); // استدعاء getData عند تغير status
+  }, [status]); 
 
   return (
     <div>

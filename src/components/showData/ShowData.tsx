@@ -5,22 +5,13 @@ import AddTask from "../addTask/AddTask";
 import { useContext, useEffect, useState } from "react";
 import { deleteTask, setCompleted } from "./TasksAction";
 import { TaskContext } from "../context/taskContext";
-
+import { Todo } from "../../types/index";
 type props = {
-  data: {
-    id: number;
-
-    todo: string;
-
-    completed: boolean;
-    userId: number;
-  }[];
+  data: Todo[];
 };
 export default function ShowData({ data }: props) {
-  //const [status, setStatus] = useState<boolean>(false);
   const numOfTasksEveryPage: number = 7;
   const numOfPages: number = Math.ceil(data.length / numOfTasksEveryPage);
-  //const currentPage:number=1;
   const [currentPage, setCurrentPage] = useState<number>(1);
   const context = useContext(TaskContext);
 
@@ -63,7 +54,7 @@ export default function ShowData({ data }: props) {
         {data.length > 0 ? (
           data.map(
             (item, index) =>
-              Math.ceil((index+1) / numOfTasksEveryPage) === currentPage && (
+              Math.ceil((index + 1) / numOfTasksEveryPage) === currentPage && (
                 <li key={index} className={getBackgroundColor(item.completed)}>
                   <div className="d-flex gap-2 align-items-center">
                     <div

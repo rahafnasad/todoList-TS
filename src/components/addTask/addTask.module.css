@@ -1,27 +1,31 @@
-.addTask{
-    
-    margin: 25px 0;
+.addTask {
+  margin: 25px 0;
 }
-.addTask form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+.addTask form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 .addTask form input {
-    width: 40%;
-    padding:8px 15px;
-    border-radius: 5px;
-    background-color: transparent;
-    border: 2px solid #2b2d42;
-    font-weight: 500;
+  width: 40%;
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 2px solid white;
+  font-weight: 500;
+  color: white;
 }
-.addTask form input::placeholder{
-    color: #333;
+.addTask form input::placeholder {
+  color: white;
 }
-.addTask form button{
-    background-color: #2b2d42;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+.addTask form button {
+  background-color: white;
+  color: #333;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.addTask form button:hover {
+  background-color: rgb(209, 208, 208);
 }
