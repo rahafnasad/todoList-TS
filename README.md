@@ -50,9 +50,8 @@ To download the project, you can follow these steps:
    ## 📸 Screenshots
 
 Below are some screenshots of the Typed ToDo App to give you a visual overview of its features and user interface. These images showcase the main functionalities, including adding new tasks, marking tasks as completed, and deleting tasks. Check them out! 👀
-![6](https://github.com/user-attachments/assets/9fc58b64-2804-4549-9ddd-161d6eb869e7)
-![7](https://github.com/user-attachments/assets/8d6d7638-4ae2-4c90-b3ef-2c21e6498b90)
 
+![1](https://github.com/user-attachments/assets/2dbba520-8496-4308-87d5-03eaf3a3fe28)
+![2](https://github.com/user-attachments/assets/472d5d26-09b4-47a9-a102-5bf3b9f28f40)
 
-   
 
